@@ -36,8 +36,6 @@ services:
       - "25432:5432"
     volumes:
       - /srv/docker/geoserver/postgis:/var/lib/postgresql
-    #volumes_from:
-      #- pgstore
 
 volumes:
   # reference to the named data container that holds the preloaded geoserver data directory
